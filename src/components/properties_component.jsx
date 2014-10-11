@@ -17,7 +17,7 @@ module.exports = React.createClass({
     return this.props.properties ? (
       /* jshint ignore:start */
       <section className="properties">
-        <h4>Parameters</h4>
+        <h4>Properties</h4>
         <table className="table table-bordered table-condensed">
           <tbody>{this.renderProperties(this.props.properties)}</tbody>
         </table>

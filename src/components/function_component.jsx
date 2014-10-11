@@ -86,7 +86,7 @@ module.exports = React.createClass({
     return description ? (
       /* jshint ignore:start */
       <section className="description">
-        <h4>Discussion</h4>
+        <h4>Description</h4>
         <div dangerouslySetInnerHTML={{__html: description}} />
       </section>
       /* jshint ignore:end */
