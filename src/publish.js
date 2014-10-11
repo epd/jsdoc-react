@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('node-jsx').install({extension: '.jsx'});
+require('node-jsx').install({ extension: '.jsx' });
 
 var data   = require('./data'),
     fs     = require('fs'),

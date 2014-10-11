@@ -9,6 +9,7 @@ var ExampleComponent = require('./example_component'),
     IconComponent    = require('./icon_component'),
     LabelComponent   = require('./label_component'),
     ParamsComponent  = require('./params_component'),
+    PropertiesComponent  = require('./properties_component'),
     ReturnsComponent = require('./returns_component');
 
 var HeaderComponent = React.createClass({
@@ -74,6 +75,7 @@ module.exports = React.createClass({
         {this.renderDescription(this.props.description)}
         <ParamsComponent params={this.props.params} />
         {this.renderReturns(this.props.returns)}
+        <PropertiesComponent properties={this.props.properties} />
         {this.renderExamples(this.props.examples || [])}
       </section>
       /* jshint ignore:end */
