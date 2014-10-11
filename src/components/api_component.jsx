@@ -25,12 +25,16 @@ module.exports = React.createClass({
     return (
       /* jshint ignore:start */
       <section className="api">
+      
         <section className="index">
           <h1>{this.props.title}</h1>
           <ul>{this.renderIndex()}</ul>
         </section>
-        {this.renderModules(this.props.modules)}
-        {this.renderClasses(this.props.classes)}
+
+        <section className="content">
+          {this.renderModules(this.props.modules)}
+          {this.renderClasses(this.props.classes)}
+        </section>
       </section>
       /* jshint ignore:end */
     );

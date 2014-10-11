@@ -24,7 +24,7 @@ module.exports = React.createClass({
           <script src="app.js" />
         </head>
         <body>
-          <div className="container">{this.props.children}</div>
+          <div className="docs">{this.props.children}</div>
         </body>
       </html>
       /* jshint ignore:end */
