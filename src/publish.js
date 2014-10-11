@@ -84,7 +84,7 @@ function publishReadme(filename, title, readme) {
   renderPageToFile(
     filename,
     title,
-    React.DOM.div({dangerouslySetInnerHTML: {__html: readme}})
+    React.DOM.div({className: 'readme', dangerouslySetInnerHTML: {__html: readme}})
   );
 }
 
